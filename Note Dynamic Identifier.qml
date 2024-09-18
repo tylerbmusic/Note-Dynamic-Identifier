@@ -1,14 +1,11 @@
-import QtQuick 2.9
-import QtQuick.Controls 2.2
+import QtQuick 2.1
+import QtQuick.Controls 2.15
 import MuseScore 3.0
 import QtQuick.Window 2.2
-import QtQuick.Dialogs 1.2
-import QtQuick.Controls.Styles 1.4
-import QtQuick.Layouts 1.1
-import Qt.labs.settings 1.0
+import QtQuick.Layouts 1.15
 MuseScore {
     menuPath: "Plugins.Note Dynamic Identifier"
-    version: "1.0"
+    version: "1.1"
     description: "Tells you what the last dynamic of the part you have selected is. Note: For the plugin to work properly, first select a measure or multiple notes. If you don't see a box around your selection, the plugin won't work."
     title: "Note Dynamic Identifier"
     requiresScore: true
